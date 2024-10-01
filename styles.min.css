@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(234, 105, 40);
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -36,6 +36,9 @@ main {
   background-color: rgb(75, 143, 155);
   color: white;
   padding: 0px 0px;
+  border-bottom: 5px double #000
+
+
 
   /* Debug border */
   /* border: solid red; */
@@ -55,6 +58,7 @@ main {
   margin: 0 12px;
   text-decoration: none;
   letter-spacing: 2px;
+
 }
 
 /* CSS for page footer */
