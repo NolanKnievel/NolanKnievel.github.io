@@ -3,21 +3,51 @@ html {
 }
 
 body {
-  background-color: rgb(234, 105, 40);
+  background-color: rgb(255, 255, 255);
   position: relative;
   min-height: 100vh;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.border-wrap {
+  background-color: rgb(255, 255, 255);
+  padding: 60px;
 }
 
 main {
-  padding: 0 20px 40px 20px;
+  background-color: rgb(234, 105, 40);
+  border-color: rgb(255, 255, 255);
+  margin: 30;
+  border-style: solid;
+  border-radius: 50px;
+  padding: 20px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.my-name {
+  font-family: "Impact", sans-serif;
+  font-size: 80px;
+  color: black;
+  margin-bottom: 0;
+}
+.SLO {
+  font-family: "Impact", sans-serif;
+  font-size: 70px;
+  color: black;
+  margin-top: 0;
+
+  margin-left: 360px;
+}
+
+img {
+  filter: grayscale(100%);
+  margin-right: 575px;
+}
 /* CSS for navigation bar */
 
 .navbar {
@@ -33,12 +63,10 @@ main {
   align-items: center;
   text-align: center;
 
-  background-color: rgb(75, 143, 155);
+  background-color: rgb(0, 0, 0);
   color: white;
   padding: 0px 0px;
-  border-bottom: 5px double #000
-
-
+  border-bottom: 5px double #000;
 
   /* Debug border */
   /* border: solid red; */
@@ -53,12 +81,11 @@ main {
 }
 
 .navbar a {
-  color: rgb(0, 0, 0);
+  color: rgb(238, 236, 236);
   font-weight: bold;
   margin: 0 12px;
   text-decoration: none;
   letter-spacing: 2px;
-
 }
 
 /* CSS for page footer */
