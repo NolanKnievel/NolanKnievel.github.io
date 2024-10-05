@@ -44,6 +44,7 @@ main {
   margin-left: 360px;
 }
 
+
 img {
   filter: grayscale(100%);
   margin-right: 575px;
@@ -90,14 +91,19 @@ img {
 
 /* CSS for page footer */
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
+footer {
+  text-align: center; /* Centers both text and image */
+  padding-bottom: 0px;
+  background-color: #f8f8f8; /* Background color */
+  border-top: 1px solid #ccc; /* Optional top border */
+}
+
+
+footer img {
+  margin-top: 0px; /* Adds space between the text and image */
+  padding-bottom: 10px;
+  display: block;    /* Ensure the image is treated as a block element for centering */
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
+ 
 }
