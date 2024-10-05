@@ -43,6 +43,17 @@ main {
   margin-bottom: 0;
 }
 
+.photo-and-description {
+  display: flex;
+  align-items: center;
+}
+.photo-and-description img {
+  margin: 70px
+}
+.about-text {
+  margin: 70px
+}
+
 img {
   border-radius: 50px;
 }
